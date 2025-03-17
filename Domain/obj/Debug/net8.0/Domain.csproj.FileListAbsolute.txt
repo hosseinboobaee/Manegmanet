@@ -1,0 +1,11 @@
+D:\New folder\NestTest\backend\Store\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\New folder\NestTest\backend\Store\Domain\bin\Debug\net8.0\Domain.dll
+D:\New folder\NestTest\backend\Store\Domain\bin\Debug\net8.0\Domain.pdb
+D:\New folder\NestTest\backend\Store\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\NestTest\backend\Store\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\New folder\NestTest\backend\Store\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\New folder\NestTest\backend\Store\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\New folder\NestTest\backend\Store\Domain\obj\Debug\net8.0\Domain.dll
+D:\New folder\NestTest\backend\Store\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\New folder\NestTest\backend\Store\Domain\obj\Debug\net8.0\Domain.pdb
+D:\New folder\NestTest\backend\Store\Domain\obj\Debug\net8.0\ref\Domain.dll

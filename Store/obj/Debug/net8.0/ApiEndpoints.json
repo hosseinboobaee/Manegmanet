@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "Store.Controllers.ProductController",
+    "Method": "Get",
+    "RelativePath": "api/Product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Store.Controllers.ProductController",
+    "Method": "GetBiyId",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Store.Controllers.ProductBrandController",
+    "Method": "Get",
+    "RelativePath": "api/ProductBrand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Store.Controllers.ProductBrandController",
+    "Method": "GetBiyId",
+    "RelativePath": "api/ProductBrand/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Store.Controllers.ProductBrandController",
+    "Method": "CreateBrand",
+    "RelativePath": "api/ProductBrand/createbrand",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brand",
+        "Type": "Application.Dtos.ProductBrandDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
