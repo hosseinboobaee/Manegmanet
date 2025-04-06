@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Domain.entity.Product;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
@@ -8,12 +9,11 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Configuration
 {
-    public class ProductConfiguration : IEntityTypeConfiguration<Product>
+    public class ProductConfiguration : IEntityTypeConfiguration<Appointment>
     {
-        public void Configure(EntityTypeBuilder<Product> builder)
+        public void Configure(EntityTypeBuilder<Appointment> builder)
         {
-            builder.Property(x => x.PicUrl).IsRequired().HasMaxLength(100);
-            builder.HasOne(x => x.ProductBrand).WithMany().HasForeignKey(x => x.ProductBrandId);
+            builder.HasOne(x => x.Payment).WithOne(p => p.Appointment).HasForeignKey<Payment>(x => x.AppointmentId);
             
         }
     }
