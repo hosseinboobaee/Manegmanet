@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.entity.Product
+namespace Domain.entity.Model
 {
     public class Payment : BaseEntity
     {
