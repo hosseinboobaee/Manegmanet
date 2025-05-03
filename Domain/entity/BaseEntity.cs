@@ -11,8 +11,6 @@ namespace Domain.entity
         public int Id { get; set; }
         public bool IsDelete { get; set; }
         public DateTime? CreteDate { get; set; }
-        public int? CreateBy { get; set; }
         public DateTime? LastModifyDate { get; set; }
-        public int? LastModoifyBy { get; set; }
     }
 }
