@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain.entity.Model.Item
 {
-    public class Item:BaseEntity
+    public class Item: AuditableEntity
     {
         public string Title { get; set; }
+        public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.entity.Model.Item
 {
-    public class Category:BaseEntity
+    public class Category: AuditableEntity
     {
         public string Name { get; set; }
         public virtual ICollection<Item> Items { get; set; }

@@ -1,4 +1,6 @@
 ﻿using Domain.entity.Model;
+using Domain.entity.Model.Item;
+using Domain.entity.Model.Party;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,11 +16,16 @@ namespace Infrastructure.Context
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
         }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Deposit> Deposits { get; set; }
+        public DbSet<Item> Items { get; set; }
+        public DbSet<Reserve> Reserves { get; set; }
+        public DbSet<ReserveItem> ReserveItems { get; set; }
+        public DbSet<Party> Parties { get; set; }
         public DbSet<Customer> Customers { get; set; }
-        public DbSet<Employee> Employees { get; set; }
-        public DbSet<Service> Services { get; set; }
-        public DbSet<Appointment> Appointments { get; set; }
-        public DbSet<Payment> Payments { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Phone> Phones { get; set; }
+        public DbSet<Address> Addresses { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

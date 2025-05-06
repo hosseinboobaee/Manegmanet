@@ -7,11 +7,13 @@ using System.Threading.Tasks;
 
 namespace Domain.entity.Model.Item
 {
-    public class Reserve:BaseEntity
+    public class Reserve: AuditableEntity
     {
-        public long? CustomerId { get; set; }
+        public long CustomerId { get; set; }
         public virtual Customer Customer { get; set; }
-        public long? UserId  { get; set; }
+        public long UserId  { get; set; }
         public virtual User User { get; set; }
+        public virtual ICollection<Deposit> Deposits { get; set; }
+        public virtual ICollection<ReserveItem> ReserveItems { get; set; }
     }
 }

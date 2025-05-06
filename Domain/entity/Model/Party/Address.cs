@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.entity.Model.Party
 {
-    public class Addresses:BaseEntity
+    public class Address:BaseEntity
     {
         public string Title { get; set; }
         public long? UserId { get; set; }
