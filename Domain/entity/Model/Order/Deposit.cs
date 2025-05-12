@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.entity.Model.Item
+namespace Domain.entity.Model.Order
 {
-    public class ReserveItem:BaseEntity
+    public class Deposit : BaseEntity
     {
+        public decimal? Amount { get; set; }
         public long? ReserveId { get; set; }
         public virtual Reserve Reserve { get; set; }
-        public long? ItemId { get; set; }
-        public virtual Item Item{ get; set; }
     }
 }

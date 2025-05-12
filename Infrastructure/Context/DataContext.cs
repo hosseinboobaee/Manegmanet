@@ -1,5 +1,6 @@
 ﻿using Domain.entity.Model;
 using Domain.entity.Model.Item;
+using Domain.entity.Model.Order;
 using Domain.entity.Model.Party;
 using Microsoft.EntityFrameworkCore;
 using System;

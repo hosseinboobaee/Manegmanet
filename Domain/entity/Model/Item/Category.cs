@@ -9,6 +9,7 @@ namespace Domain.entity.Model.Item
     public class Category: AuditableEntity
     {
         public string Name { get; set; }
+        public bool IsActive { get; set; }
         public virtual ICollection<Item> Items { get; set; }
     }
 }
