@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.entity.Model.Items
 {
-    public class Category : AuditableEntity
+    public class Category : BaseEntity
     {
         public string Name { get; set; }
         public bool IsActive { get; set; }

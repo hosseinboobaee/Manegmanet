@@ -9,3 +9,16 @@ D:\New folder\NestTest\backend\Store\Domain\obj\Debug\net8.0\Domain.dll
 D:\New folder\NestTest\backend\Store\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\New folder\NestTest\backend\Store\Domain\obj\Debug\net8.0\Domain.pdb
 D:\New folder\NestTest\backend\Store\Domain\obj\Debug\net8.0\ref\Domain.dll
+G:\Manegmanet\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+G:\Manegmanet\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\Manegmanet\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+G:\Manegmanet\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+G:\Manegmanet\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+G:\Manegmanet\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+G:\Manegmanet\Domain\bin\Debug\net8.0\Domain.deps.json
+G:\Manegmanet\Domain\bin\Debug\net8.0\Domain.dll
+G:\Manegmanet\Domain\bin\Debug\net8.0\Domain.pdb
+G:\Manegmanet\Domain\obj\Debug\net8.0\Domain.dll
+G:\Manegmanet\Domain\obj\Debug\net8.0\refint\Domain.dll
+G:\Manegmanet\Domain\obj\Debug\net8.0\Domain.pdb
+G:\Manegmanet\Domain\obj\Debug\net8.0\ref\Domain.dll

@@ -8,8 +8,10 @@ namespace Domain.entity
 {
     public class BaseEntity
     {
-        public int Id { get; set; }
+        public long Id { get; set; }
         public bool IsDelete { get; set; }
+        public int? CreatedUser { get; set; }
+        public int? ModifiedUser { get; set; }
         public DateTime? CreteDate { get; set; }
         public DateTime? LastModifyDate { get; set; }
     }

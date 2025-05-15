@@ -17,3 +17,23 @@ D:\New folder\NestTest\backend\Store\Infrastructure\obj\Debug\net8.0\refint\Infr
 D:\New folder\NestTest\backend\Store\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 D:\New folder\NestTest\backend\Store\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 D:\New folder\NestTest\backend\Store\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+G:\Manegmanet\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+G:\Manegmanet\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\Manegmanet\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+G:\Manegmanet\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+G:\Manegmanet\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+G:\Manegmanet\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+G:\Manegmanet\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+G:\Manegmanet\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+G:\Manegmanet\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+G:\Manegmanet\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+G:\Manegmanet\Infrastructure\bin\Debug\net8.0\Application.dll
+G:\Manegmanet\Infrastructure\bin\Debug\net8.0\Domain.dll
+G:\Manegmanet\Infrastructure\bin\Debug\net8.0\Application.pdb
+G:\Manegmanet\Infrastructure\bin\Debug\net8.0\Domain.pdb
+G:\Manegmanet\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+G:\Manegmanet\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+G:\Manegmanet\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+G:\Manegmanet\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+G:\Manegmanet\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+G:\Manegmanet\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

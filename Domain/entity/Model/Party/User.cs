@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Domain.entity.Model.Party
 {
-    public class User : AuditableEntity
+    public class User : BaseEntity
     {
         public string Username { get; set; }
         public string PhoneNumber { get; set; }

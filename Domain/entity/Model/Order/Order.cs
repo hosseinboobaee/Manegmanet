@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Domain.entity.Model.Order
 {
-    public class Order : AuditableEntity
+    public class Order : BaseEntity
     {
         [Display(Name = "مشتری")]
         public long CustomerId { get; set; }

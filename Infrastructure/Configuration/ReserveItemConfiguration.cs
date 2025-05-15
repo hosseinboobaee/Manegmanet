@@ -14,20 +14,20 @@ namespace Infrastructure.Configuration
     {
         public void Configure(EntityTypeBuilder<ReserveItem> builder)
         {
-            builder.HasOne(r => r.Customer)
-              .WithOne(c => c.Reserve)
-              .HasForeignKey<Reserve>(r => r.CustomerId)
-              .OnDelete(DeleteBehavior.Cascade);
+        //    builder.HasOne(r => r.Customer)
+        //      .WithOne(c => c.Reserve)
+        //      .HasForeignKey<Reserve>(r => r.CustomerId)
+        //      .OnDelete(DeleteBehavior.Cascade);
 
-            builder.HasOne(r => r.User)
-               .WithMany(u => u.Reserves)
-               .HasForeignKey(r => r.UserId)
-               .OnDelete(DeleteBehavior.Restrict);
+        //    builder.HasOne(r => r.User)
+        //       .WithMany(u => u.Reserves)
+        //       .HasForeignKey(r => r.UserId)
+        //       .OnDelete(DeleteBehavior.Restrict);
 
-            builder.HasMany(c => c.Deposits)
-                 .WithOne(i => i.Reserve)
-                 .HasForeignKey(i => i.ReserveId)
-                 .OnDelete(DeleteBehavior.Cascade);
+        //    builder.HasMany(c => c.Deposits)
+        //         .WithOne(i => i.Reserve)
+        //         .HasForeignKey(i => i.ReserveId)
+        //         .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.entity.Model.Order
 {
-    public class Reserve : AuditableEntity
+    public class Reserve : BaseEntity
     {
         public long CustomerId { get; set; }
         public DateTime? StartDate { get; set; }

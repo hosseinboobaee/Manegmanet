@@ -1,6 +1,7 @@
 using Application;
 using Infrastructure;
 using Infrastructure.Context;
+using Infrastructure.SeedData;
 using Microsoft.EntityFrameworkCore;
 using Store;
 
@@ -13,6 +14,7 @@ builder.Services.AddDbContext<DataContext>(optinos =>
 });
 
 builder.Services.AddWebServiceCollecton();
+builder.Services.AddScoped<SeedData>();
 //builder.Services.AddInfrastructureService();
 builder.Services.ApplicationServices();
 builder.Services.AddControllers();
@@ -21,6 +23,23 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    try
+    {
+        var seeder = services.GetRequiredService<SeedData>();
+        seeder.Seed();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Œÿ« œ— Seed ò—œ‰ œ? «: {ex.Message}");
+    }
+}
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

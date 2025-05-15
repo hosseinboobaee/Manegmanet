@@ -1,4 +1,4 @@
-﻿using Core.Utilities.Mapping;
+﻿using Application.Utility.Mapping;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;

@@ -6,8 +6,8 @@ namespace Application.Utility.Mapping
     {
         public AutoMapperProfile()
         {
-            CreateMap<Product, ProductDto>();
-            CreateMap<ProductDto, Product>();
+            //CreateMap<Product, ProductDto>();
+            //CreateMap<ProductDto, Product>();
             //CreateMap<Videos, VideoDto>().ForMember(x => x.Title , c => c.MapFrom<VideoUrlResolver>());
         }
     }

@@ -13,3 +13,19 @@ D:\New folder\NestTest\backend\Store\Application\obj\Debug\net8.0\Application.dl
 D:\New folder\NestTest\backend\Store\Application\obj\Debug\net8.0\refint\Application.dll
 D:\New folder\NestTest\backend\Store\Application\obj\Debug\net8.0\Application.pdb
 D:\New folder\NestTest\backend\Store\Application\obj\Debug\net8.0\ref\Application.dll
+G:\Manegmanet\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+G:\Manegmanet\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\Manegmanet\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+G:\Manegmanet\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+G:\Manegmanet\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+G:\Manegmanet\Application\obj\Debug\net8.0\Application.sourcelink.json
+G:\Manegmanet\Application\bin\Debug\net8.0\Application.deps.json
+G:\Manegmanet\Application\bin\Debug\net8.0\Application.dll
+G:\Manegmanet\Application\bin\Debug\net8.0\Application.pdb
+G:\Manegmanet\Application\bin\Debug\net8.0\Domain.dll
+G:\Manegmanet\Application\bin\Debug\net8.0\Domain.pdb
+G:\Manegmanet\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+G:\Manegmanet\Application\obj\Debug\net8.0\Application.dll
+G:\Manegmanet\Application\obj\Debug\net8.0\refint\Application.dll
+G:\Manegmanet\Application\obj\Debug\net8.0\Application.pdb
+G:\Manegmanet\Application\obj\Debug\net8.0\ref\Application.dll

@@ -10,14 +10,15 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Configuration
 {
-    public class CategoryConfiguration : IEntityTypeConfiguration<Category>
+    public class ItemConfiguration : IEntityTypeConfiguration<Item>
     {
-        public void Configure(EntityTypeBuilder<Category> builder)
+        public void Configure(EntityTypeBuilder<Item> builder)
         {
-            builder.HasMany(c => c.Items)
-                   .WithOne(i => i.Category)
-                   .HasForeignKey(i => i.CategoryId)
-                   .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasOne(r => r.Category)
+               .WithMany()
+               .HasForeignKey(r => r.CategoryId)
+               .OnDelete(DeleteBehavior.Restrict);
 
         }
     }
