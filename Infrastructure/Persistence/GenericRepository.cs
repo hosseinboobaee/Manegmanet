@@ -41,5 +41,7 @@ namespace Infrastructure.Persistence
             _dataContext.Entry(entity).State = EntityState.Modified;
             return Task.FromResult(entity);
         }
+        public async Task<bool> ExistsAsync(long id) => await _dbSet.AnyAsync(e => e.Id == id);
+        public IQueryable<T> Query() => _dbSet.AsQueryable();
     }
 }

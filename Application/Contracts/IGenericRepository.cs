@@ -1,4 +1,4 @@
-﻿using Application.Contracts.Specification;
+﻿
 using Domain.entity;
 using System;
 using System.Collections.Generic;
@@ -14,6 +14,8 @@ namespace Application.Contracts
         Task<IReadOnlyList<T>> GetAllAsync();
         Task<T> AddAsync(T entity);
         Task<T> UpdateAsync(T entity);
+        Task<bool> ExistsAsync(long id);
+        IQueryable<T> Query();
 
     }
 }
