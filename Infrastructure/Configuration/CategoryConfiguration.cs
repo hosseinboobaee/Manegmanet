@@ -1,5 +1,5 @@
 ﻿using Domain.entity.Model;
-using Domain.entity.Model.Item;
+using Domain.entity.Model.Items;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;

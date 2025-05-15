@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.entity.Model.Item
+namespace Domain.entity.Model.Items
 {
-    public class Category: AuditableEntity
+    public class Category : AuditableEntity
     {
         public string Name { get; set; }
         public bool IsActive { get; set; }
